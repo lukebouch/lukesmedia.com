@@ -3,7 +3,7 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'title' => 'Jigsaw',
-    'description' => 'Website description.',
+    'title' => 'Luke\'s Media',
+    'description' => 'Exceptional websites designed from the ground up to grow your business.',
     'collections' => [],
 ];
