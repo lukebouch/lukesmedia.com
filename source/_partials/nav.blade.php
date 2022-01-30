@@ -5,9 +5,6 @@
             <li>
                 <a href="/" class="link {{ $page->isActive('/') ? 'link-active' : '' }}">Home</a>
             </li>
-            <li>
-                <a href="/contact" class="link {{ $page->isActive('/contact') ? 'link-active' : '' }}">Contact</a>
-            </li>
         </ul>
     </div>
 </nav>

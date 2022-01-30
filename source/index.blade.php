@@ -7,7 +7,6 @@
         <div class="text-lg font-normal">designed from the ground up to grow your
             business.</div>
     </h1>
-    <x-anchor style="3" href="/contact">Contact</x-anchor>
 </section>
 <section class="py-5 mt-10">
     <div class="container text-center">
@@ -47,7 +46,6 @@
                 Let's schedule a time to talk.</p>
             <div class="grid md:grid-cols-2 max-w-sm pt-1">
                 <x-anchor href="https://calendly.com/lukes-media/meeting">Schedule a Time</x-anchor>
-                <x-anchor style="2" href="/contact">Contact</x-anchor>
             </div>
         </div>
         <img class="flex-auto w-full max-w-md" src="/assets/images/LukeBouch02.png" alt="Luke Bouch">
