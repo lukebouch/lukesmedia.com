@@ -23,7 +23,7 @@ module.exports = {
             },
             colors: {
                 blue: {
-                    DEFAULT: "0051E0",
+                    DEFAULT: "#0051E0",
                 },
             },
         },

@@ -7,7 +7,7 @@
         <div class="text-lg font-normal">designed from the ground up to grow your
             business.</div>
     </h1>
-    <x-anchor href="/contact">Contact</x-anchor>
+    <x-anchor style="3" href="/contact">Contact</x-anchor>
 </section>
 <section class="py-5 mt-10">
     <div class="container text-center">
@@ -37,6 +37,20 @@
         <h2><img class="mx-auto w-10 mb-2" src="/assets/images/100-percent.png" alt="Medal">
             Outstanding Reliability</h2>
         <p>I keep your website running smoothly and monitor it 24/7. Without you even needing to lift a finger.</p>
+    </div>
+</section>
+<section class="pt-10">
+    <div class="container flex gap-5 justify-center">
+        <div class="flex-auto max-w-xl">
+            <h2>Schedule a Meeting</h2>
+            <p>Ready to hire me to build out your website?<br>
+                Let's schedule a time to talk.</p>
+            <div class="grid grid-cols-2 max-w-sm pt-1">
+                <x-anchor href="https://calendly.com/lukes-media/meeting">Schedule a Time</x-anchor>
+                <x-anchor style="2" href="/contact">Contact</x-anchor>
+            </div>
+        </div>
+        <img class="flex-1 w-full max-w-md" src="/assets/images/LukeBouch02.png" alt="Luke Bouch">
     </div>
 </section>
 @endsection
