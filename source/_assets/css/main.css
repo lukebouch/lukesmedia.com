@@ -61,3 +61,11 @@ small,
 .text_small {
     font-size: 0.75rem;
 }
+
+.link {
+    @apply pb-1;
+}
+
+.link-active {
+    @apply font-medium border-white border-b-2;
+}

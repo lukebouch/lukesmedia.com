@@ -32089,6 +32089,17 @@ small,
   font-size: 0.75rem;
 }
 
+.link {
+  padding-bottom: 0.25rem;
+}
+
+.link-active {
+  border-bottom-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgba(255, 255, 255, var(--tw-border-opacity));
+  font-weight: 500;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;

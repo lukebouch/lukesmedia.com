@@ -13,7 +13,7 @@
 
 <body class="text-gray-900 font-sans antialiased">
     <header>
-        <x-nav />
+        @include('_partials.nav')
     </header>
     @yield('body')
 </body>
