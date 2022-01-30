@@ -9,7 +9,7 @@
 }
 
 .container {
-    @apply max-w-6xl mx-auto p-3;
+    @apply max-w-6xl mx-auto p-3 px-8;
 }
 
 .container-xl {
@@ -36,7 +36,7 @@ h5 {
 
 h1 {
     margin-top: 0;
-    @apply text-4xl;
+    @apply text-3xl md:text-4xl;
 }
 
 h2 {
