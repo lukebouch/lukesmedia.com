@@ -32032,6 +32032,13 @@ video {
 .container {
   margin-left: auto;
   margin-right: auto;
+  max-width: 72rem;
+  padding: 0.75rem;
+}
+
+.container-xl {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 80rem;
   padding: 0.75rem;
 }
