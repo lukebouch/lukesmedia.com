@@ -9,6 +9,18 @@
     <title>{{ $page->title }}</title>
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
+
+    @if ($page->production)
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MWLTT0HK7M"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-MWLTT0HK7M');
+    </script>
+    @endif
 </head>
 
 <body class="text-gray-900 font-sans antialiased">
