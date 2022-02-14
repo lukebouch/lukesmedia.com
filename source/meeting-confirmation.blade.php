@@ -11,4 +11,7 @@
     </div>
 </section>
 
+<script>
+    gtag("event", "meeting_scheduled", {});
+</script>
 @endsection
