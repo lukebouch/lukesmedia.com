@@ -8,34 +8,72 @@
     </h1>
     <x-anchor href="#schedule" :style="3">Schedule a Meeting</x-anchor>
 </section>
-<section class="py-5 mt-10">
-    <div class="container text-center">
-        <h2><img class="mx-auto w-10 mb-2" src="/assets/images/top-secret.png" alt="Lock">
-            Top-Notch Security</h2>
-        <p>Having your website hacked can not only be an expensive and time-consuming experience, but it can also be a
-            detriment to
-            your business by losing your customers trust. I take security very seriously by building on top of two of
-            the
-            most
-            trusted and secure companies (Netlify and Digital Ocean).</p>
+<section class="py-10 my-10">
+    <div class="container">
+        <ul class="list-disc-lg space-y-10">
+            <li class="flex">
+                <x-icons.bullet class="hidden md:inline-block mt-6 mr-7" />
+                <div>
+                    <h2 class="m-0">Build Trust with Customers
+                        <img class="hidden md:inline-block w-12" src="/assets/images/trust.png" alt="trust">
+                    </h2>
+                    <p>Clean and professional website = customer trust</p>
+                </div>
+            </li>
+            <li class="flex">
+                <x-icons.bullet class="hidden md:inline-block mt-6 mr-7" />
+                <div>
+                    <h2 class="m-0">Increase Profit
+                        <img class="hidden md:inline-block w-12" src="/assets/images/profit.png" alt="profit">
+                    </h2>
+                    <p>More customers = higher profit</p>
+                </div>
+            </li>
+            <li class="flex">
+                <x-icons.bullet class="hidden md:inline-block mt-6 mr-7" />
+                <div>
+                    <h2 class="m-0">Dominate Your Market
+                        <img class="hidden md:inline-block w-12" src="/assets/images/number-one.png" alt="#1">
+                    </h2>
+                    <p>Steal customers from your competitors with a website that will impress and drive conversions.</p>
+                </div>
+            </li>
+        </ul>
     </div>
 </section>
-<section class="py-5">
-    <div class="container text-center">
-        <h2><img class="mx-auto w-10 mb-2" src="/assets/images/medal.png" alt="Medal">
-            Superior Quality</h2>
-        <p>Grow your business and blow away the competition with a highly custom, professionally designed website, built
-            from the
-            ground up to drive customers and build your brand. You will not get a generic site built from a cheap
-            template but a
-            highly refined and polished design, tailored specifically for your brand.</p>
+<section class="py-10 my-10 text-white bg-blue">
+    <div class="py-5">
+        <div class="container text-center">
+            <h2><img class="mx-auto w-10 mb-2" src="/assets/images/top-secret.png" alt="Lock">
+                Top-Notch Security</h2>
+            <p>Having your website hacked can not only be an expensive and time-consuming experience, but it can also be
+                a
+                detriment to
+                your business by losing your customers trust. I take security very seriously by building on top of two
+                of
+                the
+                most
+                trusted and secure companies (Netlify and Digital Ocean).</p>
+        </div>
     </div>
-</section>
-<section class="py-5 mb-10">
-    <div class="container text-center">
-        <h2><img class="mx-auto w-10 mb-2" src="/assets/images/100-percent.png" alt="Medal">
-            Outstanding Reliability</h2>
-        <p>I keep your website running smoothly and monitor it 24/7. Without you even needing to lift a finger.</p>
+    <div class="py-5">
+        <div class="container text-center">
+            <h2><img class="mx-auto w-10 mb-2" src="/assets/images/medal.png" alt="Medal">
+                Superior Quality</h2>
+            <p>Grow your business and blow away the competition with a highly custom, professionally designed website,
+                built
+                from the
+                ground up to drive customers and build your brand. You will not get a generic site built from a cheap
+                template but a
+                highly refined and polished design, tailored specifically for your brand.</p>
+        </div>
+    </div>
+    <div class="py-5">
+        <div class="container text-center">
+            <h2><img class="mx-auto w-10 mb-2" src="/assets/images/100-percent.png" alt="Medal">
+                Outstanding Reliability</h2>
+            <p>I keep your website running smoothly and monitor it 24/7. Without you even needing to lift a finger.</p>
+        </div>
     </div>
 </section>
 <section class="md:pt-10 pb-10" id="schedule">
