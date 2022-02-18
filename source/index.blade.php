@@ -3,10 +3,10 @@
 @section('body')
 <section class="flex flex-col h-screen p-10 -mt-20 justify-center items-center text-center text-white bg-cover"
     style="background-image: linear-gradient(111.06deg, rgba(0, 81, 224, 0.75) 0%, rgba(26, 71, 151, 0.75) 100%), url('/assets/images/20220127-WintergreenSunset-02.jpg')">
-    <h1>Exceptional Websites<br>
-        <div class="text-lg font-normal">designed from the ground up to grow your
-            business.</div>
+    <h1>Grow Your Business<br>
+        <div class="text-lg font-normal">with a website designed specificly to drive customers.</div>
     </h1>
+    <x-anchor href="#schedule" :style="3">Schedule a Meeting</x-anchor>
 </section>
 <section class="py-5 mt-10">
     <div class="container text-center">
@@ -38,14 +38,15 @@
         <p>I keep your website running smoothly and monitor it 24/7. Without you even needing to lift a finger.</p>
     </div>
 </section>
-<section class="md:pt-10 pb-10">
+<section class="md:pt-10 pb-10" id="schedule">
     <div class="container flex flex-wrap gap-5 justify-center">
         <div class="flex-auto max-w-xl inline-block">
             <h2>Schedule a Meeting</h2>
             <p>Ready to hire me to build out your website?<br>
                 Let's schedule a time to talk.</p>
-            <div class="grid md:grid-cols-2 max-w-sm pt-1">
-                <x-anchor href="https://calendly.com/lukes-media/meeting">Schedule a Time</x-anchor>
+            <div class="pt-1">
+                <x-anchor href="https://calendly.com/lukes-media/meeting">Schedule a Meeting
+                </x-anchor>
             </div>
         </div>
         <img class="flex-auto w-full h-full max-w-md" src="/assets/images/LukeBouch02.png" alt="Luke Bouch">
