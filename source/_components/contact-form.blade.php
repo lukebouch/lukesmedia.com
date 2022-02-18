@@ -17,9 +17,8 @@
             <textarea class="h-48 rounded-md shadow resize-none" type="email" name="email"></textarea>
         </div>
     </div>
-
+    <div data-netlify-recaptcha="true"></div>
     <div class="mt-2">
         <x-button type="submit">Send</x-button>
     </div>
-    <div data-netlify-recaptcha="true"></div>
 </form>
