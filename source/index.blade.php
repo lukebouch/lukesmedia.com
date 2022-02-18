@@ -8,9 +8,9 @@
     </h1>
     <x-anchor href="#schedule" :style="3">Schedule a Meeting</x-anchor>
 </section>
-<section class="py-10 my-10">
+<section class="py-28 my-10">
     <div class="container">
-        <ul class="list-disc-lg space-y-10">
+        <ul class="list-disc-lg space-y-14">
             <li class="flex">
                 <x-icons.bullet class="hidden md:inline-block mt-6 mr-7" />
                 <div>
