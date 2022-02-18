@@ -47,15 +47,6 @@
             <div class="grid md:grid-cols-2 max-w-sm pt-1">
                 <x-anchor href="https://calendly.com/lukes-media/meeting">Schedule a Time</x-anchor>
             </div>
-
-            <div class="my-8 border-b-2 text-xl text-center font-medium"><span
-                    class="relative top-5 px-4 mb-4 bg-white">or</span>
-            </div>
-
-            <div class="pt-4">
-                <h2 class="mt-0">Contact</h2>
-                <x-contact-form />
-            </div>
         </div>
         <img class="flex-auto w-full h-full max-w-md" src="/assets/images/LukeBouch02.png" alt="Luke Bouch">
     </div>
