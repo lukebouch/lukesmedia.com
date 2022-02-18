@@ -1,6 +1,7 @@
 <form name="contact" action="/contact-confirmation" @if($page->production)
     method="POST"
     @endif
+    data-netlify-recaptcha="true"
     netlify>
     <div class="md:grid md:grid-cols-2 gap-2">
         <div class="grid">
@@ -20,4 +21,5 @@
     <div class="mt-2">
         <x-button type="submit">Send</x-button>
     </div>
+    <div data-netlify-recaptcha="true"></div>
 </form>
