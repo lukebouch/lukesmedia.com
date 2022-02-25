@@ -16,6 +16,7 @@
         @include('_partials.nav')
     </header>
     @yield('body')
+    <x-footer />
 </body>
 
 </html>
