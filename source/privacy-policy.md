@@ -1,9 +1,10 @@
 ---
 extends: _layouts.document
 section: content
+title: Privacy Policy
+published_date: 2022-02-25
+updated_date: 2022-02-25
 ---
-
-# Privacy Policy
 
 Here you will find information on the data we collect and how we use it to improve your experience on our site.
 
