@@ -1,7 +1,7 @@
 @extends('_layouts.main')
 
 @section('body')
-<main class="container my-24">
+<main class="container my-10 md:my-24">
     <h1>{{ $page->title }}</h1>
 
     <p class="-mt-5">
