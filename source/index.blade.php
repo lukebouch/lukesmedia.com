@@ -14,27 +14,21 @@
             <li class="flex">
                 <x-icons.bullet class="hidden md:inline-block mt-6 mr-7" />
                 <div>
-                    <h2 class="m-0">Build Trust with Customers
-                        <img class="hidden md:inline-block w-12" src="/assets/images/trust.png" alt="trust">
-                    </h2>
+                    <h2 class="m-0">Build Trust with Customers</h2>
                     <p>Clean and professional website = customer trust</p>
                 </div>
             </li>
             <li class="flex">
                 <x-icons.bullet class="hidden md:inline-block mt-6 mr-7" />
                 <div>
-                    <h2 class="m-0">Increase Profit
-                        <img class="hidden md:inline-block w-12" src="/assets/images/profit.png" alt="profit">
-                    </h2>
+                    <h2 class="m-0">Increase Profit</h2>
                     <p>More customers = higher profit</p>
                 </div>
             </li>
             <li class="flex">
                 <x-icons.bullet class="hidden md:inline-block mt-6 mr-7" />
                 <div>
-                    <h2 class="m-0">Dominate Your Market
-                        <img class="hidden md:inline-block w-12" src="/assets/images/number-one.png" alt="#1">
-                    </h2>
+                    <h2 class="m-0">Dominate Your Market</h2>
                     <p>Steal customers from your competitors with a website that will impress and drive conversions.</p>
                 </div>
             </li>
