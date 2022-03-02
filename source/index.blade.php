@@ -71,13 +71,17 @@
     </div>
 </section>
 <section class="md:pt-10 pb-10" id="schedule">
-    <div class="container">
-        <div class="text-center">
+    <div class="container flex flex-wrap gap-5 justify-center">
+        <div class="flex-auto max-w-xl inline-block">
             <h2>Schedule a Meeting</h2>
             <p>Ready to hire me to build out your website?<br>
                 Let's schedule a time to talk.</p>
+            <div class="pt-1">
+                <x-anchor href="https://calendly.com/lukes-media/meeting">Schedule a Meeting
+                </x-anchor>
+            </div>
         </div>
-        <x-calendly></x-calendly>
+        <img class="flex-auto w-full h-full max-w-md" src="/assets/images/LukeBouch02.png" alt="Luke Bouch">
     </div>
 </section>
 @endsection
