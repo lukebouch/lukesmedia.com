@@ -70,7 +70,7 @@
         </div>
     </div>
 </section>
-<section class="pb-10 mb-8" id="schedule">
+<section class="md:pt-10 pb-10" id="schedule">
     <div class="container">
         <div class="text-center">
             <h2>Schedule a Meeting</h2>
