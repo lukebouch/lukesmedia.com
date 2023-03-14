@@ -11,7 +11,7 @@
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
 
     @if($page->production)
-    <script src="https://cdn.usefathom.com/script.js" data-site="MASETWQM" defer></script>
+    <script src="https://boundless-wonderful.lukesmedia.com/script.js" data-site="MASETWQM" defer></script>
     @endif
 </head>
 
