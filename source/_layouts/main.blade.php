@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
 
-    @if($page->production)
-    <script src="https://boundless-wonderful.lukesmedia.com/script.js" data-site="MASETWQM" defer></script>
+    @if ($page->production)
+        <script src="https://boundless-wonderful.lukesmedia.com/script.js" data-site="MASETWQM" defer></script>
+
+        <script src="https://tinylytics.app/embed/-P5mxHe68sicVMmxxSWj.js" defer></script>
     @endif
 </head>
 
