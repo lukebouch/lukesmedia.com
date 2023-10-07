@@ -13,7 +13,7 @@
     @if ($page->production)
         <script src="https://boundless-wonderful.lukesmedia.com/script.js" data-site="MASETWQM" defer></script>
 
-        <script src="https://tinylytics.app/embed/-P5mxHe68sicVMmxxSWj.js" defer></script>
+        <script src="https://tinylytics.app/embed/MUnCsj5bqV8x_VWefwkH.js" defer></script>
     @endif
 </head>
 
