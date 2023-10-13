@@ -1,5 +1,6 @@
 [build]
+publish = "dist/"
+command = "yarn build"
 
-command = "npm run prod"
-publish = "build_production"
-environment = { PHP_VERSION = "8.0" }
+[build.environment]
+NODE_VERSION = "18"
